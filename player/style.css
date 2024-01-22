@@ -1,6 +1,6 @@
 
 /* Video player Styling */
-.container .video_player {
+.containerrr .video_player {
   position: relative;
   width: 700px;
   height: 100%;
@@ -8,7 +8,7 @@
   overflow: hidden;
 
 }
-.container .video_player .loader{
+.containerrr .video_player .loader{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -30,7 +30,7 @@
     transform: translate(-50%,-50%) rotate(360deg);
   }
 }
-.container .video_player .thumbnail{
+.containerrr .video_player .thumbnail{
   position: absolute;
   bottom: 80px;
   left: calc(var(--x) + 11px);
@@ -42,7 +42,7 @@
   border-radius: 3px;
   display: none;
 }
-.container .video_player .main-video {
+.containerrr .video_player .main-video {
   position: relative;
   width: 100%;
   height: 100%;
@@ -65,7 +65,7 @@
   display: none;
 }
 
-.container .video_player .controls {
+.containerrr .video_player .controls {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -79,7 +79,7 @@
   padding: 0px 10px;
 }
 
-.container .video_player .controls.active {
+.containerrr .video_player .controls.active {
   transform: translateY(0);
 }
 
