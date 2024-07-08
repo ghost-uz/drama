@@ -521,6 +521,23 @@
                 </div>
             </aside>
         </div>
+        <!--middle-->
+        <script type="text/javascript">
+            try {
+                var sbmt = document.getElementById('submit'),
+                    npt = document.createElement('input'),
+                    d = new Date(),
+                    __ksinit = function() {
+                        sbmt.parentNode.insertBefore(npt, sbmt);
+                    };
+                npt.value = d.getUTCDate() + '' + (d.getUTCMonth() + 1) + 'uniq9065';
+                npt.name = 'ksbn_code';
+                npt.type = 'hidden';
+                sbmt.onmousedown = __ksinit;
+                sbmt.onkeypress = __ksinit;
+            } catch (e) {}
+
+        </script>
     </div>
     <footer class="footer">
         <div class="footer-block">
@@ -545,7 +562,9 @@
             gtag('config', 'G-WW5PJNYGKR');
 
         </script>
-    </footer>
+        </footer>
+
+    <script type='text/javascript' src='https://doramy.club/wp-content/themes/doramy/js/comm.js?v=2'></script>
 </body>
 
 </html>
